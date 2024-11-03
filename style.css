@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(64, 64, 64);;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blue(10px);
+}
+
+.header .logo{
+    font-size: 20px;
+    color: #fff;
+}
+
+.navi a{
+    font-size: 18px;
+    color: #fff;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+
+.navi a:hover{
+    color: #f00;
+}
