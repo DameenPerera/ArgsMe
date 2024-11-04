@@ -24,7 +24,6 @@ body{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-    backdrop-filter: blue(10px);
 }
 
 .header .logo{
