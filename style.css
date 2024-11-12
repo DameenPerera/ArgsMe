@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logobase .logo{
+    font-size: 40px;
+    color: #000;
+    padding: 0px;
+    margin: 0px;
+    flex: 0;
+    transition: 0.5s;
+}
+
+.header .logobase a:hover{
+    color: rgb(224, 19, 122);
+}
+
+.header .logobase{
+    padding: 20px 50px;
+}
+
+.navi a{
+    font-size: 18px;
+    color: #000;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+
+.navi a:hover{
+    color: rgb(224, 19, 122);
+}
+
+.header .topicons{
+    padding-right: 60px;
+}
+
+.topicons .iconsearch{
+    margin-right: 10px;
+    
+}
